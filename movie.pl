@@ -73,7 +73,7 @@ get_theme(Mood,X) :-
     Mood = angry,
     X = [comedy,family,sci-fi,animation,drama,musical].
 
-%DATABASE
+%DATABASE_OF_MOVIES
 movie(blade_runner_2049,ridley_scott,r,164,[netflix],[action,drama,mystery,sci-fi,thriller]).
 movie(shrek,andrew_adamson,pg,90,[netflix,prime],[animation,adventure,comedy,family,fantasy]).
 movie(thor_ragnarok,taika_waititi,pg13,130,[disney],[action,adventure,comedy,fantasy,sci-fi]).
